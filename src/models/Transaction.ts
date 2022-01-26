@@ -1,4 +1,5 @@
-import { v4 as uuid } from 'uuid';
+//import { v4 as uuid } from 'uuid';
+const { v4: uuid, validate: isUuid } = require('uuid');
 
 class Transaction {
   id: string;
